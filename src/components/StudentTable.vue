@@ -73,10 +73,12 @@ export default {
 .present-true {
     color: gray;
     font-style: italic;
+    background-color: blueviolet;
 }
 
 .present-false{
     font-weight: bold;
+    background-color: palevioletred;
 }
 
 </style>

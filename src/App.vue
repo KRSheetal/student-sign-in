@@ -23,8 +23,8 @@ export default {
   data(){
     return{
       students:[
-        {name: 'Example', 'starID': 'abc123', present:true},
-        {name: 'Example2', 'starID': 'abc456', present:false},
+        // {name: 'Example', 'starID': 'abc123', present:true},
+        // {name: 'Example2', 'starID': 'abc456', present:false},
       ],
       mostRecentStudent: {}
     }
@@ -44,7 +44,7 @@ export default {
     studentArrivedOrLeft(student, present) {
       //find student in array of students
       let updateStudent = this.students.find(function(s){
-        if (s.name === student.name && s.startID === student.starID){
+        if (s.name === student.name && s.starID === student.starID){
           return true
         }
       })
